@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BoxShodowstyleComponent } from './box-shodowstyle/box-shodowstyle.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BoxShodowstyleComponent
   ],
   imports: [
     BrowserModule,
